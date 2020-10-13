@@ -11,7 +11,12 @@ def print_machine_info():
 
 if __name__ == '__main__':
     print_machine_info()
-
+    
+'''
+  gethostname(),没有参数，返回所在主机或本地主机的名字
+  gethostbyname(host_name),接收一个参数 hostname，返回对应的IP地址
+'''
+    
 '''
   我们要在常用的__main__代码块中调用这个函数
   运行时，Python会为某些内部变量赋值，
@@ -19,9 +24,4 @@ if __name__ == '__main__':
   如果在命令行中运行脚本（如后面 的命令所示） ，__name__的值是__main__。
   如果在命令行中调用这个模块，会自动运行print_machine_info()函数；
   如果在其他脚本中导入，用户就要手动调用这个函数。
-'''
-
-'''
-  gethostname(),没有参数，返回所在主机或本地主机的名字
-  gethostbyname(host_name),接收一个参数 hostname，返回对应的IP地址
 '''
