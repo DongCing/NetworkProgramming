@@ -1,3 +1,5 @@
+# 要快速查看设备的某些信息，例如主机名、IP地址和网络接口的数量等
+
 import socket
 
 
@@ -12,8 +14,6 @@ def print_machine_info():
 if __name__ == '__main__':
     print_machine_info()
 
-
-# 要快速查看设备的某些信息，例如主机名、IP地址和网络接口的数量等
     
 '''
   gethostname(),没有参数，返回所在主机或本地主机的名字
